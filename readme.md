@@ -52,6 +52,17 @@ WebFuck has almost all (Except ',', because it will be useless). You can see the
 |]|If the value at the data pointer is nonzero, jump to [|
 |**/**|**Ignores all symbols up to the next /. If no / was found, just to end of the code**|
 
+Writing Code
+------------
+
+You can execute WebFuck code using *WebFuckDo* function. It takes one argument, which is the source code on WebFuck. This code should contain only new lines, spaces and WebFuck operators.
+
+Also you can write WebFuck code in HTML. You should import WebFuck AFTER you wrote the code.
+
+	<script type="text/webfuck">
+		/ .. The code goes here .. /
+	</script>
+
 Execution
 ------------
 
